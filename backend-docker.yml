@@ -33,5 +33,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/daw-backend:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/daw-backend:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}cristiiaanlp/daw-backend:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}1923154-lgtm/daw-backend:${{ github.sha }}
